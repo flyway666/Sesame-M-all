@@ -163,16 +163,16 @@ public class AntOrchard extends ModelTask {
             // 额外信息获取（每日肥料包）
             extraInfoGet();
 
+            // 执行施肥逻辑
+            if (orchardSpreadManure.getValue()) {
+                orchardSpreadManure();
+            }
+
             // 执行农场任务
             if (orchardListTask.getValue()) {
                 orchardListTask();
             }
 
-
-            // 执行施肥逻辑
-            if (orchardSpreadManure.getValue()) {
-                orchardSpreadManure();
-            }
 
             // 好友助力
             if (assistFriend.getValue()) {
