@@ -1,7 +1,7 @@
 package io.github.aw1y2z.sesame;
 
 import android.app.Application;
-   
+
 import io.github.libxposed.service.XposedService;
 import io.github.libxposed.service.XposedServiceHelper;
 import io.github.aw1y2z.sesame.data.RunType;
